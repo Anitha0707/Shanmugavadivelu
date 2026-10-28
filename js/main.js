@@ -17,3 +17,11 @@ $('gal').addEventListener('click',e=>{const i=e.target.closest('img');if(i){$('l
 if($('tList'))ts.forEach(t=>{const txt=(t.msg||'').trim()||'Trusted advisor who is always there for our family&rsquo;s insurance needs.';const ta=/[\u0B80-\u0BFF]/.test(txt)?' tamil':'';$('tList').insertAdjacentHTML('beforeend',`<blockquote class="t${t.tag?' big':''}${ta}"><b>${t.n}</b><span>${t.p}</span>${t.tag?`<p><strong>${t.tag}</strong></p>`:''}<p>${txt}</p></blockquote>`)});
 document.querySelectorAll('[data-n]').forEach(el=>{const n=+el.dataset.n,s=el.dataset.s||'';let c=0;const st=Math.ceil(n/60);const iv=setInterval(()=>{c=Math.min(n,c+st);el.textContent=c+(c==n?s:'');if(c==n)clearInterval(iv)},25)});
 if($('yr'))$('yr').textContent=new Date().getFullYear();
+
+if($('cf'))$('cf').addEventListener('submit',e=>{e.preventDefault();
+const v=id=>$(id).value.trim(),pu=[...document.querySelectorAll('input[name=purpose]:checked')].map(c=>c.value);
+if(!pu.length){$('cf-err').textContent='Please tick at least one PURPOSE.';return}
+$('cf-err').textContent='';
+const dob=v('f-dob').split('-').reverse().join('-');
+const msg='*Free Consultation Request*\n\nNAME: '+v('f-name')+'\nDATE OF BIRTH: '+dob+'\nCELL NO: '+v('f-cell')+'\nSALARY: '+v('f-sal')+'\nPURPOSE: '+pu.join(', ');
+window.open(wa(msg),'_blank','noopener')});

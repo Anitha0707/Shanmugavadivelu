@@ -210,3 +210,22 @@ h2{font-size:2rem}
 .ico.logo img{height:100%;width:auto;max-width:190px;object-fit:contain;display:block}
 .india .in-ico{padding:0;line-height:0;display:grid;place-items:center}
 .india .in-ico svg{display:block;margin-top:-3px}
+
+/* ===== WHATSAPP CONSULTATION FORM ===== */
+.cform{max-width:640px;margin:0 auto;background:#fff;border:4px solid var(--yellow);border-radius:16px;padding:28px;box-shadow:0 10px 28px rgba(11,60,140,.18)}
+.cform label{display:block;font-weight:800;color:var(--blue);margin:16px 0 6px;font-size:1.1rem;letter-spacing:.5px}
+.cform input[type=text],.cform input[type=date],.cform input[type=tel]{width:100%;font:inherit;font-size:1.15rem;padding:13px 14px;border:2px solid var(--blue);border-radius:8px;color:var(--blue-d);background:#fff}
+.cform input:focus{outline:3px solid var(--yellow);border-color:var(--blue-d)}
+.cform fieldset{border:0;margin-top:18px}
+.cform legend{font-weight:800;color:var(--blue);font-size:1.1rem;letter-spacing:.5px;margin-bottom:4px}
+.cform label.ck{display:flex;align-items:center;gap:12px;font-weight:700;margin:8px 0;padding:12px 14px;border:2px solid var(--blue-l);border-radius:8px;cursor:pointer;color:var(--blue-d)}
+.cform label.ck:hover{border-color:var(--blue)}
+.cform input[type=checkbox]{width:26px;height:26px;accent-color:var(--blue);flex:none}
+.cf-err{color:#b00020;font-weight:700;min-height:1.4em;margin-top:6px}
+.cform .btn{width:100%;margin-top:10px;font-size:1.25rem;text-align:center}
+
+/* ===== FEATURED FIRST GALLERY PHOTO ===== */
+.gallery figure:first-child{grid-column:span 2;grid-row:span 2;display:flex;flex-direction:column}
+.gallery figure:first-child img{flex:1;height:auto;min-height:520px;object-fit:contain;background:var(--blue-l)}
+.gallery figure:first-child figcaption{font-size:1.15rem;padding:10px}
+@media(max-width:480px){.gallery figure:first-child{grid-column:auto;grid-row:auto}.gallery figure:first-child img{min-height:380px}}
