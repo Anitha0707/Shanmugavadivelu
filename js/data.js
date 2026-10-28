@@ -7,23 +7,23 @@ const starPlans=[{"n": "Star Comprehensive Insurance Policy", "type": "Individua
    "Trusted advisor who is always there for our family's insurance needs."
    Tamil messages are fine too. Do not use a double quote (") inside a message. */
 const ts=[
-  {n:"P. Jothiraman", p:"Contractor, Sirkali", tag:"1 Crore policy holder", msg:""},
-  {n:"Prakash", p:"Business, Sirkali", tag:"1 Crore policy holder", msg:""},
-  {n:"Dr. M. Sridhar", p:"New Delhi", tag:"", msg:""},
-  {n:"Sri M. Kannan", p:"IT Professional, England", tag:"", msg:""},
-  {n:"P. Kamarasan", p:"Qatar", tag:"", msg:""},
-  {n:"Pannirselvam", p:"Auditor, Sirkali", tag:"", msg:""},
-  {n:"Sri Ramamoorthy Kesavan", p:"Retd. Polytechnic Principal, Sirkali", tag:"", msg:""},
-  {n:"Sri J. Madhan", p:"Business, Sirkali", tag:"", msg:""},
-  {n:"Selvi Shivanika", p:"IT Professional, Bangalore", tag:"", msg:""},
-  {n:"Srimath Thirunavukkarasu Thambiran", p:"Vaitheeswarankoil", tag:"", msg:""},
-  {n:"Sri Subburaman", p:"Vasantha Vihar Hotel, New Bus Stand, Sirkali", tag:"", msg:""},
-  {n:"Sri Balasubramanian", p:"Hotel Owner, New Bus Stand, Sirkali", tag:"", msg:""},
-  {n:"Srimathy Gandhimathy", p:"Bus Owner, Kondal", tag:"", msg:""},
-  {n:"Dr. Kanimozhi", p:"Govt. Hospital, Kollidam", tag:"", msg:""},
-  {n:"Sri Ravichandran", p:"Fish Contractor, Thandavankulam", tag:"", msg:""},
-  {n:"Sri Venkataraman", p:"Development Officer, Star Health, Kadavasal", tag:"", msg:""},
-  {n:"Sri Prabakaran", p:"Asst. Branch Manager, LIC, Pattukottai", tag:"", msg:""}
+  {n:"P. Jothiraman", p:"Contractor, Sirkali", tag:"1 Crore policy holder", msg:"Shanmugavelu Sir is my best friend. worked with him under his office, He helped me with LIC work. His LIC work is very tremendous."},
+  {n:"Prakash", p:"Business, Sirkali", tag:"1 Crore policy holder", msg:"SSV... Sir advised me to take a Jeevan Shiromani policy. Lots of benefits are included."},
+  {n:"Dr. M. Sridhar", p:"New Delhi", tag:"", msg:"Trusted person to all, so I take LIC policy from him."},
+  {n:"Sri M. Kannan", p:"IT Professional, England", tag:"", msg:"He is my relative. He always helps everyone."},
+  {n:"P. Kamarasan", p:"Qatar", tag:"", msg:"Sir advised me to take an LIC policy. His service is beautiful."},
+  {n:"Pannirselvam", p:"Auditor, Sirkali", tag:"", msg:"Sir is my family friend. I was attracted by his LIC service."},
+  {n:"Sri Ramamoorthy Kesavan", p:"Retd. Polytechnic Principal, Sirkali", tag:"", msg:"He is my relative, and his 44 years of experience in LIC service will be reflected in his actions."},
+  {n:"Sri J. Madhan", p:"Business, Sirkali", tag:"", msg:"Sir, did the LIC policy for our family, which is ignored by us, is very helpful."},
+  {n:"Selvi Shivanika", p:"IT Professional, Bangalore", tag:"", msg:"Sir is my father's friend. He advised me to take an LIC policy. Bima Lakshmi (Ladies only)"},
+  {n:"Srimath Thirunavukkarasu Thambiran", p:"Vaitheeswarankoil", tag:"", msg:"Sir knows me for the past 20 years. His helping tendency is appreciated by me."},
+  {n:"Sri Subburaman", p:"Vasantha Vihar Hotel, New Bus Stand, Sirkali", tag:"", msg:"Sir is my customer, and myself is his customer."},
+  {n:"Sri Balasubramanian", p:"Hotel Owner, New Bus Stand, Sirkali", tag:"", msg:"Sir, his laughter is beautiful, so I took a policy from him."},
+  {n:"Srimathy Gandhimathy", p:"Bus Owner, Kondal", tag:"", msg:"My husband passed away. He took an LIC policy from Sir. Sir claimed the amount quickly."},
+  {n:"Dr. Kanimozhi", p:"Govt. Hospital, Kollidam", tag:"", msg:"Sir is my father's close friend, so I took a policy in LIC and worked India also"},
+  {n:"Sri Ravichandran", p:"Fish Contractor, Thandavankulam", tag:"", msg:"Sir is efficient in all insurance fields. So I took a policy from Star Health LIC, and United India."},
+  {n:"Sri Venkataraman", p:"Development Officer, Star Health, Kadavasal", tag:"", msg:"Sir is my advisor. He worked hardly and came first rank."},
+  {n:"Sri Prabakaran", p:"Asst. Branch Manager, LIC, Pattukottai", tag:"", msg:"Sir is an LIC advisor. Sir's work is very punctual and straightforward, helping other agents also"}
 ];
 const TAMIL="\u0b9a\u0ba3\u0bcd\u0bae\u0bc1\u0b95 \u0bb5\u0b9f\u0bbf\u0bb5\u0bc7\u0bb2\u0bc1 \u0b85\u0bb5\u0bb0\u0bcd\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1, \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b85\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0ba3\u0bbf\u0baa\u0bcd\u0baa\u0bbe\u0ba9 \u0b9a\u0bc7\u0bb5\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0ba8\u0bc7\u0bb0\u0bcd\u0ba4\u0bcd\u0ba4\u0bbf\u0baf\u0bbe\u0ba9 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0baa\u0bbe\u0b9f\u0bc1\u0bae\u0bcd \u0b89\u0ba3\u0bcd\u0bae\u0bc8\u0baf\u0bbf\u0bb2\u0bc7\u0baf\u0bc7 \u0baa\u0bbe\u0bb0\u0bbe\u0b9f\u0bcd\u0b9f\u0ba4\u0bcd\u0ba4\u0b95\u0bcd\u0b95\u0ba4\u0bc1. \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0bb5\u0bbe\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bc8\u0baf\u0bbe\u0bb3\u0bb0\u0bcd\u0b95\u0bb3\u0bbf\u0ba9\u0bcd \u0ba4\u0bc7\u0bb5\u0bc8\u0b95\u0bb3\u0bc8 \u0bae\u0bbf\u0b95\u0b9a\u0bcd \u0b9a\u0bb0\u0bbf\u0baf\u0bbe\u0b95\u0baa\u0bcd \u0baa\u0bc1\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1 \u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1, \u0b92\u0bb5\u0bcd\u0bb5\u0bca\u0bb0\u0bc1 \u0ba8\u0bbf\u0bb2\u0bc8\u0baf\u0bbf\u0bb2\u0bc1\u0bae\u0bcd \u0ba8\u0bc0\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bbf\u0baf \u0b85\u0b95\u0bcd\u0b95\u0bb1\u0bc8\u0baf\u0bc1\u0bae\u0bcd \u0b9a\u0bbf\u0bb1\u0baa\u0bcd\u0baa\u0bbe\u0ba9 \u0bb5\u0bb4\u0bbf\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bb2\u0bc1\u0bae\u0bcd \u0b85\u0bb1\u0bcd\u0baa\u0bc1\u0ba4\u0bae\u0bbe\u0ba9\u0ba4\u0bc1. \u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0ba3\u0bbf \u0bae\u0bc7\u0bb2\u0bc1\u0bae\u0bcd \u0baa\u0bb2 \u0b9a\u0bbe\u0ba4\u0ba9\u0bc8\u0b95\u0bb3\u0bc8\u0baa\u0bcd \u0baa\u0b9f\u0bc8\u0b95\u0bcd\u0b95 \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bb3\u0bcd";
 const imgs=[["mdrt-2025","MDRT Qualifier 2025 - Trophy"],["trophy-1","Winners Team Plaque 2022-23"],["trophy-2","Platinum Mukavar Trophy 2021-22"],["trophy-3","Thanjavur Division Memento"],["trophy-4","Independence Day Award"],["trophy-5","LIC Day Trophy 2018"],["trophy-6","Overall Topper 2023-24"],["trophy-7","Crystal Trophy"],["trophy-8","Sirkali Branch Memento"],["cert-1","Zonal Manager's Club Certificate"],["cert-2","One Day Millionaire Certificate"],["medals-1","Medals"],["medals-2","Thanjavur Division Medal"],["event-1","Felicitation at Division Event"],["event-2","Branch Celebration"],["poster-1","LIC @70 Marathon Winner"],["poster-2","Rank 2 in Sirkazhi Branch"],["event-3","Felicitation with Shawl"],["poster-3","Nav Jeevan Shree Congratulations"],["event-4","MDRT Recognition on Stage"],["event-5","Achiever - Sirkazhi Branch"]];
